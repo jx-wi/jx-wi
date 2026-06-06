@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+  <rect width="1200" height="400" fill="#000"/>
+
+  <!-- Outer: center coordinate space -->
+  <g transform="translate(600,200)">
+    <!-- Inner: slow zoom-out -->
+    <g>
+      <animateTransform attributeName="transform" type="scale"
+        values="1.18;1;1;1.18" keyTimes="0;0.35;0.92;1"
+        dur="12s" repeatCount="indefinite"
+        calcMode="spline" keySplines="0.4 0 0.2 1;0 0 1 1;0.4 0 0.2 1"/>
+
+      <!-- L1 lines -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0"
+          keyTimes="0;0.05;0.13;0.88;1" dur="12s" repeatCount="indefinite" calcMode="linear"/>
+        <line x1="0" y1="0" x2="-265" y2="-100" stroke="white" stroke-width="1.2" stroke-opacity="0.55"/>
+        <line x1="0" y1="0" x2="-250" y2="100"  stroke="white" stroke-width="1.2" stroke-opacity="0.55"/>
+        <line x1="0" y1="0" x2="265"  y2="-100" stroke="white" stroke-width="1.2" stroke-opacity="0.55"/>
+        <line x1="0" y1="0" x2="250"  y2="100"  stroke="white" stroke-width="1.2" stroke-opacity="0.55"/>
+      </g>
+
+      <!-- L2 lines -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0"
+          keyTimes="0;0.20;0.28;0.88;1" dur="12s" repeatCount="indefinite" calcMode="linear"/>
+        <line x1="-265" y1="-100" x2="-440" y2="-165" stroke="white" stroke-width="1"   stroke-opacity="0.4"/>
+        <line x1="-265" y1="-100" x2="-435" y2="-42"  stroke="white" stroke-width="1"   stroke-opacity="0.4"/>
+        <line x1="-250" y1="100"  x2="-420" y2="50"   stroke="white" stroke-width="1"   stroke-opacity="0.4"/>
+        <line x1="-250" y1="100"  x2="-395" y2="163"  stroke="white" stroke-width="1"   stroke-opacity="0.4"/>
+        <line x1="265"  y1="-100" x2="440"  y2="-165" stroke="white" stroke-width="1"   stroke-opacity="0.4"/>
+        <line x1="265"  y1="-100" x2="435"  y2="-42"  stroke="white" stroke-width="1"   stroke-opacity="0.4"/>
+        <line x1="250"  y1="100"  x2="420"  y2="50"   stroke="white" stroke-width="1"   stroke-opacity="0.4"/>
+        <line x1="250"  y1="100"  x2="395"  y2="163"  stroke="white" stroke-width="1"   stroke-opacity="0.4"/>
+      </g>
+
+      <!-- L3 lines -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0"
+          keyTimes="0;0.37;0.45;0.88;1" dur="12s" repeatCount="indefinite" calcMode="linear"/>
+        <line x1="-440" y1="-165" x2="-555" y2="-188" stroke="white" stroke-width="0.7" stroke-opacity="0.3"/>
+        <line x1="-440" y1="-165" x2="-548" y2="-148" stroke="white" stroke-width="0.7" stroke-opacity="0.3"/>
+        <line x1="-435" y1="-42"  x2="-552" y2="-68"  stroke="white" stroke-width="0.7" stroke-opacity="0.3"/>
+        <line x1="-435" y1="-42"  x2="-545" y2="-18"  stroke="white" stroke-width="0.7" stroke-opacity="0.3"/>
+        <line x1="-420" y1="50"   x2="-535" y2="24"   stroke="white" stroke-width="0.7" stroke-opacity="0.3"/>
+        <line x1="-420" y1="50"   x2="-525" y2="75"   stroke="white" stroke-width="0.7" stroke-opacity="0.3"/>
+        <line x1="-395" y1="163"  x2="-510" y2="140"  stroke="white" stroke-width="0.7" stroke-opacity="0.3"/>
+        <line x1="-395" y1="163"  x2="-495" y2="185"  stroke="white" stroke-width="0.7" stroke-opacity="0.3"/>
+        <line x1="440"  y1="-165" x2="555"  y2="-188" stroke="white" stroke-width="0.7" stroke-opacity="0.3"/>
+        <line x1="440"  y1="-165" x2="548"  y2="-148" stroke="white" stroke-width="0.7" stroke-opacity="0.3"/>
+        <line x1="435"  y1="-42"  x2="552"  y2="-68"  stroke="white" stroke-width="0.7" stroke-opacity="0.3"/>
+        <line x1="435"  y1="-42"  x2="545"  y2="-18"  stroke="white" stroke-width="0.7" stroke-opacity="0.3"/>
+        <line x1="420"  y1="50"   x2="535"  y2="24"   stroke="white" stroke-width="0.7" stroke-opacity="0.3"/>
+        <line x1="420"  y1="50"   x2="525"  y2="75"   stroke="white" stroke-width="0.7" stroke-opacity="0.3"/>
+        <line x1="395"  y1="163"  x2="510"  y2="140"  stroke="white" stroke-width="0.7" stroke-opacity="0.3"/>
+        <line x1="395"  y1="163"  x2="495"  y2="185"  stroke="white" stroke-width="0.7" stroke-opacity="0.3"/>
+      </g>
+
+      <!-- L4 lines -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0"
+          keyTimes="0;0.55;0.63;0.88;1" dur="12s" repeatCount="indefinite" calcMode="linear"/>
+        <line x1="-555" y1="-188" x2="-585" y2="-195" stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="-555" y1="-188" x2="-583" y2="-178" stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="-548" y1="-148" x2="-585" y2="-155" stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="-548" y1="-148" x2="-583" y2="-138" stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="-552" y1="-68"  x2="-585" y2="-76"  stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="-552" y1="-68"  x2="-583" y2="-56"  stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="-545" y1="-18"  x2="-585" y2="-26"  stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="-545" y1="-18"  x2="-582" y2="-6"   stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="-535" y1="24"   x2="-582" y2="14"   stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="-535" y1="24"   x2="-580" y2="34"   stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="-525" y1="75"   x2="-578" y2="65"   stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="-525" y1="75"   x2="-575" y2="84"   stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="-510" y1="140"  x2="-570" y2="132"  stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="-510" y1="140"  x2="-566" y2="150"  stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="-495" y1="185"  x2="-558" y2="178"  stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="-495" y1="185"  x2="-553" y2="193"  stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="555"  y1="-188" x2="585"  y2="-195" stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="555"  y1="-188" x2="583"  y2="-178" stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="548"  y1="-148" x2="585"  y2="-155" stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="548"  y1="-148" x2="583"  y2="-138" stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="552"  y1="-68"  x2="585"  y2="-76"  stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="552"  y1="-68"  x2="583"  y2="-56"  stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="545"  y1="-18"  x2="585"  y2="-26"  stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="545"  y1="-18"  x2="582"  y2="-6"   stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="535"  y1="24"   x2="582"  y2="14"   stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="535"  y1="24"   x2="580"  y2="34"   stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="525"  y1="75"   x2="578"  y2="65"   stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="525"  y1="75"   x2="575"  y2="84"   stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="510"  y1="140"  x2="570"  y2="132"  stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="510"  y1="140"  x2="566"  y2="150"  stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="495"  y1="185"  x2="558"  y2="178"  stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+        <line x1="495"  y1="185"  x2="553"  y2="193"  stroke="white" stroke-width="0.5" stroke-opacity="0.2"/>
+      </g>
+
+      <!-- Root -->
+      <circle cx="0" cy="0" r="10" fill="white"/>
+
+      <!-- L1 nodes -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0"
+          keyTimes="0;0.05;0.13;0.88;1" dur="12s" repeatCount="indefinite" calcMode="linear"/>
+        <circle cx="-265" cy="-100" r="7" fill="white"/>
+        <circle cx="-250" cy="100"  r="7" fill="white"/>
+        <circle cx="265"  cy="-100" r="7" fill="white"/>
+        <circle cx="250"  cy="100"  r="7" fill="white"/>
+      </g>
+
+      <!-- L2 nodes -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0"
+          keyTimes="0;0.20;0.28;0.88;1" dur="12s" repeatCount="indefinite" calcMode="linear"/>
+        <circle cx="-440" cy="-165" r="5" fill="white"/>
+        <circle cx="-435" cy="-42"  r="5" fill="white"/>
+        <circle cx="-420" cy="50"   r="5" fill="white"/>
+        <circle cx="-395" cy="163"  r="5" fill="white"/>
+        <circle cx="440"  cy="-165" r="5" fill="white"/>
+        <circle cx="435"  cy="-42"  r="5" fill="white"/>
+        <circle cx="420"  cy="50"   r="5" fill="white"/>
+        <circle cx="395"  cy="163"  r="5" fill="white"/>
+      </g>
+
+      <!-- L3 nodes -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0"
+          keyTimes="0;0.37;0.45;0.88;1" dur="12s" repeatCount="indefinite" calcMode="linear"/>
+        <circle cx="-555" cy="-188" r="3.5" fill="white"/>
+        <circle cx="-548" cy="-148" r="3.5" fill="white"/>
+        <circle cx="-552" cy="-68"  r="3.5" fill="white"/>
+        <circle cx="-545" cy="-18"  r="3.5" fill="white"/>
+        <circle cx="-535" cy="24"   r="3.5" fill="white"/>
+        <circle cx="-525" cy="75"   r="3.5" fill="white"/>
+        <circle cx="-510" cy="140"  r="3.5" fill="white"/>
+        <circle cx="-495" cy="185"  r="3.5" fill="white"/>
+        <circle cx="555"  cy="-188" r="3.5" fill="white"/>
+        <circle cx="548"  cy="-148" r="3.5" fill="white"/>
+        <circle cx="552"  cy="-68"  r="3.5" fill="white"/>
+        <circle cx="545"  cy="-18"  r="3.5" fill="white"/>
+        <circle cx="535"  cy="24"   r="3.5" fill="white"/>
+        <circle cx="525"  cy="75"   r="3.5" fill="white"/>
+        <circle cx="510"  cy="140"  r="3.5" fill="white"/>
+        <circle cx="495"  cy="185"  r="3.5" fill="white"/>
+      </g>
+
+      <!-- L4 nodes -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0"
+          keyTimes="0;0.55;0.63;0.88;1" dur="12s" repeatCount="indefinite" calcMode="linear"/>
+        <circle cx="-585" cy="-195" r="2.5" fill="white"/>
+        <circle cx="-583" cy="-178" r="2.5" fill="white"/>
+        <circle cx="-585" cy="-155" r="2.5" fill="white"/>
+        <circle cx="-583" cy="-138" r="2.5" fill="white"/>
+        <circle cx="-585" cy="-76"  r="2.5" fill="white"/>
+        <circle cx="-583" cy="-56"  r="2.5" fill="white"/>
+        <circle cx="-585" cy="-26"  r="2.5" fill="white"/>
+        <circle cx="-582" cy="-6"   r="2.5" fill="white"/>
+        <circle cx="-582" cy="14"   r="2.5" fill="white"/>
+        <circle cx="-580" cy="34"   r="2.5" fill="white"/>
+        <circle cx="-578" cy="65"   r="2.5" fill="white"/>
+        <circle cx="-575" cy="84"   r="2.5" fill="white"/>
+        <circle cx="-570" cy="132"  r="2.5" fill="white"/>
+        <circle cx="-566" cy="150"  r="2.5" fill="white"/>
+        <circle cx="-558" cy="178"  r="2.5" fill="white"/>
+        <circle cx="-553" cy="193"  r="2.5" fill="white"/>
+        <circle cx="585"  cy="-195" r="2.5" fill="white"/>
+        <circle cx="583"  cy="-178" r="2.5" fill="white"/>
+        <circle cx="585"  cy="-155" r="2.5" fill="white"/>
+        <circle cx="583"  cy="-138" r="2.5" fill="white"/>
+        <circle cx="585"  cy="-76"  r="2.5" fill="white"/>
+        <circle cx="583"  cy="-56"  r="2.5" fill="white"/>
+        <circle cx="585"  cy="-26"  r="2.5" fill="white"/>
+        <circle cx="582"  cy="-6"   r="2.5" fill="white"/>
+        <circle cx="582"  cy="14"   r="2.5" fill="white"/>
+        <circle cx="580"  cy="34"   r="2.5" fill="white"/>
+        <circle cx="578"  cy="65"   r="2.5" fill="white"/>
+        <circle cx="575"  cy="84"   r="2.5" fill="white"/>
+        <circle cx="570"  cy="132"  r="2.5" fill="white"/>
+        <circle cx="566"  cy="150"  r="2.5" fill="white"/>
+        <circle cx="558"  cy="178"  r="2.5" fill="white"/>
+        <circle cx="553"  cy="193"  r="2.5" fill="white"/>
+      </g>
+
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,3 @@
+![animated DAG illustration](./animation.svg)
+
+![NixOS](https://img.shields.io/badge/NixOS-5277C3?style=for-the-badge&logo=nixos&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-222222?style=for-the-badge&logo=linux&logoColor=white) ![Claude Code](https://img.shields.io/badge/Claude_Code-8B0000?style=for-the-badge&logoColor=white) ![Security](https://img.shields.io/badge/Security-1a1a2e?style=for-the-badge&logo=shield&logoColor=white) ![DevSecOps](https://img.shields.io/badge/DevSecOps-0f3460?style=for-the-badge&logoColor=white) ![AppSec](https://img.shields.io/badge/AppSec-1b1b2f?style=for-the-badge&logoColor=white) ![Nix Ecosystem](https://img.shields.io/badge/Nix_Ecosystem-3d4f7c?style=for-the-badge&logo=nixos&logoColor=white)
